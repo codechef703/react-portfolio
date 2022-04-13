@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { meta } from "../../content_option";
 import IMAGE1 from "../../assets/images/portfolios/1/1.png";
 import IMAGE2 from "../../assets/images/portfolios/1/2.png";
 import IMAGE3 from "../../assets/images/portfolios/1/3.png";
