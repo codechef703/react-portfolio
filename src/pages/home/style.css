@@ -46,7 +46,7 @@ section {
 
 .intro_sec .text,
 .intro_sec .h_bg-image {
-    width: 50%;
+    width:100%;
 }
 
 @media (max-width:991.98px) {
@@ -195,7 +195,7 @@ section {
 @media (max-width:991.98px) {
     .intro_sec .h_bg-image {
         height: 600px;
-        min-height: 75vh;
+        min-height: 50vh;
         margin-bottom: 30px;
     }
     .intro_sec .h_bg-image .block {

@@ -5,6 +5,7 @@
     --text-color: #fff;
     --text-color-2: #fff;
     --overlay-color: rgb(12 12 12 / 63%);
+    overflow: hidden;
 }
 
 [data-theme="light"] {
@@ -14,6 +15,9 @@
     --text-color: #000;
     --text-color-2: #000;
     --overlay-color: rgb(255 255 255 / 70%);
+}
+* {
+    box-sizing: border-box;
 }
 
 html,
@@ -25,7 +29,7 @@ body {
     margin: 0;
     height: 100%;
     overflow-x: hidden;
-    overflow-y: visible;
+    /* overflow-y:visible; */
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'Raleway', sans-serif;
